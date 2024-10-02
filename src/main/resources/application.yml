@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: DemoProject
+  datasource:
+    url: jdbc:mysql://localhost:3306/sweety
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
